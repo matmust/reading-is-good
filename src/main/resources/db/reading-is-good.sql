@@ -1,0 +1,1 @@
+insert into book (ID,AUTHOR,TITLE,PRICE,QUANTITY,CREATED_DATE) values(1,'Lev Tolstoy','War And Peace',12.35,10,{ts '2022-01-01 01:00:00'});
