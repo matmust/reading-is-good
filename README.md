@@ -9,11 +9,11 @@ This project is using several technologies:
 * Swagger2
 
 ## Documentation
-###swagger
+### swagger
 ```
 http://localhost:8035/swagger-ui.html
 ```  
-###Postman
+### Postman
 
 Postman request collection file is in the following directory: 
 
@@ -21,7 +21,7 @@ Postman request collection file is in the following directory:
 
 ## Usage
 
-####docker
+#### docker
 ```
 docker build -f Dockerfile -t reading-is-good-api .  
 docker run -p 8081:8081 reading-is-good-api  
@@ -33,13 +33,13 @@ username: **admin** password: **admin**
 
 
 
-###h-2 console link
+### h-2 console link
 
 ```
 http://localhost:8081/h2-console
 ```
 
-###Bearer token link
+### Bearer token link
 
 ```
 http://localhost:8081/api/token
